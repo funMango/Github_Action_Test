@@ -14,6 +14,7 @@
 		5ACB27182AF4E95B00CF8668 /* GitHubActionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB27172AF4E95B00CF8668 /* GitHubActionTests.swift */; };
 		5ACB27222AF4E95B00CF8668 /* GitHubActionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB27212AF4E95B00CF8668 /* GitHubActionUITests.swift */; };
 		5ACB27242AF4E95B00CF8668 /* GitHubActionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB27232AF4E95B00CF8668 /* GitHubActionUITestsLaunchTests.swift */; };
+		5ACB27312AF5052500CF8668 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACB27302AF5052500CF8668 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		5ACB271D2AF4E95B00CF8668 /* GitHubActionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitHubActionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ACB27212AF4E95B00CF8668 /* GitHubActionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubActionUITests.swift; sourceTree = "<group>"; };
 		5ACB27232AF4E95B00CF8668 /* GitHubActionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubActionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5ACB27302AF5052500CF8668 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				5ACB27082AF4E95A00CF8668 /* ContentView.swift */,
 				5ACB270A2AF4E95B00CF8668 /* Assets.xcassets */,
 				5ACB270C2AF4E95B00CF8668 /* Preview Content */,
+				5ACB27302AF5052500CF8668 /* SecondView.swift */,
 			);
 			path = GitHubAction;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ACB27312AF5052500CF8668 /* SecondView.swift in Sources */,
 				5ACB27092AF4E95A00CF8668 /* ContentView.swift in Sources */,
 				5ACB27072AF4E95A00CF8668 /* GitHubActionApp.swift in Sources */,
 			);
